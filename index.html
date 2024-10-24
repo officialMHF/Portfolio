@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="header">
+    <div class="container">
+        <img src="mapache-pedro.gif" alt="Profielfoto" class="profile-img" id="profile-img">
+        <h1>Mijn Portfolio</h1>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#" id="home-button"><i class="fas fa-home"></i>🏠︎</a></li>
+        <li><a href="#" data-section="over-mij">Over Mij</a></li>
+        <li><a href="#" data-section="cv">CV</a></li>
+        <li><a href="#" data-section="hobbies">Hobbies</a></li>
+        <li><a href="#" data-section="projecten">Projecten</a></li>
+        <li><a href="#" data-section="stage">Stage</a></li>
+    </ul>
+</nav>
+
+<main class="container">
+    <div id="content-container">
+        <section id="over-mij" class="section">
+            <div class="mhf-animation">Informatie</div>
+            <div class="about-content">
+                <h2></h2>
+                <p>Hallo, ik ben Sven, 18 jaar oud en momenteel volg ik de opleiding software developer. Mijn passie ligt bij het ontwikkelen van software en ik ben vastbesloten om me te specialiseren in Java en JavaScript. Ik kijk ernaar uit om mijn vaardigheden verder te ontwikkelen en een carrière op te bouwen in de wereld van softwareontwikkeling.</p>
+            </div>
+        </section>
+
+        <section id="cv" class="section">
+            <div class="animation-fade">
+                <div class="about-content">
+                    <center><h2>CV</h2></center>
+                    <center><a href="#" download>Download</a></center>
+                    <p></p>
+                    <h5>Hier kun je mijn CV downloaden (PDF)</h5>
+
+                </div>
+            </div>
+        </section>
+        <section id="hobbies" class="section">
+            <div class="animation-fade">
+                <div class="hobby-buttons">
+                    <button class="hobby-btn" data-hobby="1">Motorsport</button>
+                    <button class="hobby-btn" data-hobby="2">Festivals</button>
+                    <button class="hobby-btn" data-hobby="3">Films / Series</button>
+                    <button class="hobby-btn" data-hobby="4">Gamen</button>
+                    <button class="hobby-btn" data-hobby="5">Ruimtevaart</button>
+                </div>
+                <div class="hobby-content">
+
+                    <div class="hobby-info" id="hobby1">
+                        <div class="video-section">
+                            <video id="hobby-video" muted loop playsinline>
+                                <source src="hobby1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="photo-section">
+                            <img src="hobby1.png" alt="Porsche GT3 RS" class="hobby-photo">
+                        </div>
+                        <div class="info-overlay">
+                            <div class="info-card">
+                                <h3>Motorsport</h3>
+                                <p>Gefascineerd door het race gevoel.</p>
+                                <ul class="hobby-details">
+                                    <li>Adrenaline</li>
+                                    <li>Wheel-2-Wheel</li>
+                                    <li>Overwinningen</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="hobby-info" id="hobby2">
+                        <div class="video-section">
+                            <video id="hobby-video2" muted loop playsinline>
+                                <source src="hobby2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="photo-section">
+                            <img src="hobby2.png" alt="Hobby 2" class="hobby-photo">
+                        </div>
+                        <div class="info-overlay">
+                            <div class="info-card">
+                                <h3>Festivals</h3>
+                                <p>Passie van de muziek.</p>
+                                <ul class="hobby-details">
+                                    <li>Fantasm</li>
+                                    <li>Hard Techno / Rawstyle</li>
+                                    <li>Verknipt</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="hobby-info" id="hobby3">
+                        <div class="video-section">
+                            <video id="hobby-video3" muted>
+                                <source src="hobby3.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="photo-section">
+                            <img src="hobby3.png" alt="Hobby 3" class="hobby-photo">
+                        </div>
+                        <div class="info-overlay">
+                            <div class="info-card">
+                                <h3>Films / Series</h3>
+                                <p>Lekker de tijd weg kijken.</p>
+                                <ul class="hobby-details">
+                                    <li>The Expanse S1/S6</li>
+                                    <li>Netflix</li>
+                                    <li>HBO</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="hobby-info" id="hobby4">
+                        <div class="video-section">
+                            <video id="hobby-video4" muted loop playsinline>
+                                <source src="hobby4.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="photo-section">
+                            <img src="hobby4.png" alt="Hobby 4" class="hobby-photo">
+                        </div>
+                        <div class="info-overlay">
+                            <div class="info-card">
+                                <h3>Gamen</h3>
+                                <p>Gezellig met vrienden tot laat door.</p>
+                                <ul class="hobby-details">
+                                    <li>De vrienden die je maakt</li>
+                                    <li>ARK Survival Evolved</li>
+                                    <li>Apex Legends</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="hobby-info" id="hobby5">
+                        <div class="video-section">
+                            <video id="hobby-video5" muted loop playsinline>
+                                <source src="hobby5.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="photo-section">
+                            <img src="hobby5.png" alt="Hobby 5" class="hobby-photo">
+                        </div>
+                        <div class="info-overlay">
+                            <div class="info-card">
+                                <h3>Ruimtevaart</h3>
+                                <p>The future is now?</p>
+                                <ul class="hobby-details">
+                                    <li>SpaceX / Starship</li>
+                                    <li>Maan / Mars</li>
+                                    <li>Colonizeren van de sterren</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projecten" class="section">
+            <div class="animation-fade">
+                <div class="about-content">
+                    <h2>Projecten</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h3>Project 1</h3>
+                            <p>Word aan gewerkt. (Meer informatie over het project zal volgen.)</p>
+                        </div>
+                        <div class="project-card">
+                            <h3>Project 2</h3>
+                            <p>N/A</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stage" class="section">
+            <div class="animation-fade">
+                <div class="about-content">
+
+
+
+                    <h2>Stage Ervaring</h2>
+                    <p>Ik ben nog niet op stage geweest, zodra ik dit ben geweest zal ik dit hier toevoegen.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer id="social-footer">
+    <div class="container">
+        <ul>
+            <li><a href="https://discord.com/users/1146043557229117453" target="_blank">Discord</a></li>
+            <li><a href="https://github.com" target="_blank">GitHub</a></li>
+            <li><a href="https://x.com" target="_blank">Twitter (X)</a></li>
+        </ul>
+    </div>
+</footer>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Portfolio - All Rights Reserved</p>
+    </div>
+</footer>
+
+<script src="js.js"></script>
+</body>
+</html>
